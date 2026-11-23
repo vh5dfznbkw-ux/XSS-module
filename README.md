@@ -47,3 +47,17 @@ Stored, Reflected, DOM-Based, Self, Blind XSS
 - Анализ HTTP-запросов.
 - Практика обнаружения уязвимостей.
 - Изучение методов защиты.
+
+# LAB1
+
+## TASK1
+
+<script>alert('p1-1')</script> or <script>alert(1)</script>
+1) post metod, http://localhost:3847/practice/1/1, bio
+2) STORED XSS
+
+## TASK 2
+
+
+
+
