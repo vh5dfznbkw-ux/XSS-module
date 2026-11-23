@@ -58,6 +58,27 @@ Stored, Reflected, DOM-Based, Self, Blind XSS
 
 ## TASK 2
 
+1) ?tag=, <p class="tag-line">Тег на складе: <strong><script>alert(1)</script></strong></p>
+2) reflected xss, да пропадет.
+
+## TASK 3
+
+1) and title
+2) stored xss, имя только
+
+## TASK 4
+
+1) link, nothing
+2) reflected xss, да нужен
+
+## TASK 5
+
+1) #city=New%20York,  нет не уходит
+2) нету, dom xss
+
+## TASK 6
+
+
 
 
 
