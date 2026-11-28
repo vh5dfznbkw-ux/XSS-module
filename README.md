@@ -50,6 +50,19 @@ Stored, Reflected, DOM-Based, Self, Blind XSS
 
 # LAB1
 
+Stored: HTML-тело, атрибут title, разные поля формы
+Reflected: текст, href, value input
+DOM: hash (#city=), document.write, live preview без сервера
+
+Задания (кратко)
+
+1. Визитка — stored, HTML-тело
+2. Метка товара — reflected в абзаце
+3. Контакты — stored, атрибут title
+4. Ссылка-приглашение — reflected in href
+5. Город доставки — DOM + hash
+6–10. Доска, промокод, команда, статус заказа, живой превью   
+
 ## TASK1
 ```
 <script>alert('p1-1')</script> or <script>alert(1)</script>
