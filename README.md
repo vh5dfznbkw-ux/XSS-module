@@ -132,6 +132,30 @@ Stored xss
 
 
 
+# LAB 2
+Фильтры: script, onclick, alert, угловые скобки
+Контексты: value, style, src, data-user, JSON в <script>
+DOM: innerHTML после decode, hash #b64=
+
+Задания (кратко)
+
+1. Фильтр script — reflected, чёрный список
+2. Только буквы? — дыра в атрибуте value
+3. Без угловых скобок — stored href
+4. Слово alert — DOM innerHTML
+5–10. Полуэкранирование, галерея, Base64, тема в JSON, профиль, iframe
+
+## TASK1
+```
+<img src=x onerror=alert(1)>
+```
+Частый используемый параметр часто "q". ?q=
+
+## TASK2
+
+
+
+
 
 
 
